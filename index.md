@@ -8,18 +8,24 @@
 
 * https://sparqlist.glyconavi.org/
 
+## Tools
+
+* https://glyconavi.org/Tools/
+
 ## SPARQL Endpoint
 
 * https://sparql.glyconavi.org/sparql
 
-## Resource
-
-* RDF
-
-* ...
-
 ## Identifier Hub
 
 * https://glyconavi.org/hub/?id={id}
+
+## Resource
+
+* Glycans
+
+* Proteins
+
+* 
 
 
