@@ -1,3 +1,6 @@
+<img src="https://glyconavi.org/img/glyconavi-logo-maru.png" height=100>
+<img src="https://glyconavi.org/img/GlycoNAVI.png" height=100>
+
 ## Database site
 
 * [https://glyconavi.org](https://glyconavi.org)
