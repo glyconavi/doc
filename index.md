@@ -8,7 +8,7 @@
 
 * https://sparqlist.glyconavi.org/
 
-## SAPRQL Endpoint
+## SPARQL Endpoint
 
 * https://sparql.glyconavi.org/sparql
 
