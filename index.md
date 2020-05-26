@@ -18,10 +18,11 @@
 
 ## Identifier Hub
 
-* https://glyconavi.org/hub/?id={id}
+* https://glyconavi.org/hub/?id={id} 
 
- * [https://glyconavi.org/hub/?id=1APY](https://glyconavi.org/hub/?id=1APY)
- * [https://glyconavi.org/hub/?id=U8MRX2](https://glyconavi.org/hub/?id=U8MRX2)
+  * [https://glyconavi.org/hub/?id=1APY](https://glyconavi.org/hub/?id=1APY)
+ 
+  * [https://glyconavi.org/hub/?id=U8MRX2](https://glyconavi.org/hub/?id=U8MRX2)
 
 ## Resource
 
