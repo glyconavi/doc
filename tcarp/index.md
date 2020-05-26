@@ -1,5 +1,6 @@
 # TCarp documantation
 
+* [GlycoNAVI doc](/doc/)
 
 ## How to use
 
