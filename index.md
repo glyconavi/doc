@@ -1,5 +1,3 @@
-# GlycoNAVI Documment
-
 ## Database site
 
 * [https://glyconavi.org](https://glyconavi.org)
