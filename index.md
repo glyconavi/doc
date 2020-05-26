@@ -1,5 +1,5 @@
-<img src="https://glyconavi.org/img/glyconavi-logo-maru.png" height=100>
-<img src="https://glyconavi.org/img/GlycoNAVI.png" height=100>
+
+![GlycoNAVI Logo](https://glyconavi.org/img/GlycoNAVI.png)
 
 ## Database site
 
