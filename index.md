@@ -25,9 +25,9 @@
 
 * https://glyconavi.org/hub/?id={id} 
 
-  * [https://glyconavi.org/hub/?id=1APY](https://glyconavi.org/hub/?id=1APY)
+  * [https://glyconavi.org/hub/?id=6D64](https://glyconavi.org/hub/?id=6D64)
  
-  * [https://glyconavi.org/hub/?id=U8MRX2](https://glyconavi.org/hub/?id=U8MRX2)
+  * [https://glyconavi.org/hub/?id=P03472](https://glyconavi.org/hub/?id=P03472)
 
 ## Resource
 
