@@ -5,9 +5,13 @@
 
 * [https://glyconavi.org](https://glyconavi.org)
 
-## Dataset
+## Data Resources
 
 * [TCarp doc](/doc/tcarp/)
+
+## Release notes
+
+* TODO:
 
 ## API
 
