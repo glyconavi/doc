@@ -37,6 +37,31 @@
 ### entry page
 
 
+## Programmatic Access
+
+* GlycoNAVI provides several ways for programmatic access to its data, including:
+
+### REST-style interface
+
+#### GlycoNAVI-SPARQList
+
+
+
+### SPARQL Endpoint
+
+#### SPARQL Endpoint URL: https://sparql.glyconavi.org/sparql
+
+#### Graph: `http://glyconavi.org/tcarp`
+
+#### SPARQL Queries
+
+1. Glycosylation site information
+
+```
+PREFIX 
+```
+
+
 ## Statistics
 
 * Statistics related to glycans in the Protein Data Bank
