@@ -1,6 +1,6 @@
 # GlycoNAVI TCarp Documantation
 
-* [GlycoNAVI documantation](/doc/)
+* [GlycoNAVI documantation](https://glyconavi.github.io/doc/)
 
 ## About GlycoNAVI TCarp
 
