@@ -64,6 +64,23 @@
 
 
   * Common Name Search is a search that utilizes trivial names, synonyms, abbreviations and other carbohydrate names based on CAN resource of GlycoNAVI.
+  
+  1. Click the Common Name Search image.
+  
+  2. Typing your search query into the text box.
+  
+  3. Clicking on CommonName or WURCS will display a list of entries containing that glycan structure. (If no entry is found, "No data available in table" is displayed.)
+
+  4. Browse the table and click on the TCarp ID link to go to the details page of TCarp.
+  
+  ![image](https://user-images.githubusercontent.com/2530360/86121077-5e0cf600-bb10-11ea-823a-5878636700a3.png)
+
+
+  ![image](https://user-images.githubusercontent.com/2530360/86121278-ba701580-bb10-11ea-87e6-860902c4e6b1.png)
+
+
+  ![image](https://user-images.githubusercontent.com/2530360/86121761-8f39f600-bb11-11ea-9693-3db849616325.png)
+
 
   * Motif Search is a search that utilizes glycan motif structures.
 
