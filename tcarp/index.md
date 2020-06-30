@@ -281,6 +281,13 @@ WHERE {
 ORDER BY ?protein_db ?db_name ?mod_chain ?mod_pos
 ```
 
+### RDF Data
+
+  * RDF Schema
+  
+    * e.g. [RDF structure of TCarp:1A39](https://raw.githubusercontent.com/glyconavi/doc/master/tcarp/TCarp-1A39.svg)
+  
+  * [RDF Data](https://gitlab.com/glyconavi/resources/-/tree/master/TCarp)
 
 ## Statistics
 
