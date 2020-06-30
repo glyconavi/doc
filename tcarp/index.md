@@ -164,6 +164,38 @@
 * GlycoNAVI-SPARQList
 
   * [SPARQList](https://github.com/dbcls/sparqlist) is a REST API server which executes a SPARQL query,
+  
+  
+  * https://sparqlist.glyconavi.org/TCarp_entry_citation
+  * https://sparqlist.glyconavi.org/TCarp_entry_summary
+  * https://sparqlist.glyconavi.org/TCarp_exptl_count
+  * https://sparqlist.glyconavi.org/TCarp_glycosylated_site
+  * https://sparqlist.glyconavi.org/TCarp_GTC
+  * https://sparqlist.glyconavi.org/TCarp_id_gtc_Interaction
+  * https://sparqlist.glyconavi.org/TCarp_id_model_gtc_mol
+  * https://sparqlist.glyconavi.org/TCarp_Interaction
+  * https://sparqlist.glyconavi.org/TCarp_Interaction_residue
+  * https://sparqlist.glyconavi.org/TCarp_Interaction_residue_pdbid
+  * https://sparqlist.glyconavi.org/TCarp_molfiles
+  * https://sparqlist.glyconavi.org/TCarp_PDB_glycan_interaction_sheet_helix
+  * https://sparqlist.glyconavi.org/TCarp_PDB_Glycosylation_type_Count
+  * https://sparqlist.glyconavi.org/TCarp_PDB_helix_info_count
+  * https://sparqlist.glyconavi.org/TCarp_PDB_sheet_info_count
+  * https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_GTC
+  * https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_PDBID
+  * https://sparqlist.glyconavi.org/TCarp_PDBID_Search_WURCS
+  * https://sparqlist.glyconavi.org/TCarp_PDBiD_WURCS_GTC
+  * https://sparqlist.glyconavi.org/TCarp_protein_list
+  * https://sparqlist.glyconavi.org/TCarp_proteindb_entry
+  * https://sparqlist.glyconavi.org/TCarp_Residues_near_glycans
+  * https://sparqlist.glyconavi.org/TCarp_Sequon_count
+  * https://sparqlist.glyconavi.org/TCarp_stdWURCS
+  * https://sparqlist.glyconavi.org/TCarp_text_Search
+  * https://sparqlist.glyconavi.org/TCarp_Uniprot_Glycoprotein_list
+  * https://sparqlist.glyconavi.org/TCarp_Uniprot_Lectin_list
+  * https://sparqlist.glyconavi.org/TCarp_Validation_atom
+  * https://sparqlist.glyconavi.org/TCarp_Validation_bond
+  * https://sparqlist.glyconavi.org/TCarp_Validation_sugar
 
 
 
@@ -176,12 +208,77 @@
 
   * Graph: `http://glyconavi.org/tcarp`
 
-  * SPARQL Queries
+  * Example of SPARQL Query
 
 1. Glycosylation site information
 
+  * [RUN](https://sparql.glyconavi.org/sparql/?default-graph-uri=&query=DEFINE+sql%3Aselect-option+%22order%22%0D%0Aprefix+xsd%3A+++++%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0Aprefix+rdfs%3A++++%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0Aprefix+glycan%3A++%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F12%2Fglyco%2Fglycan%23%3E%0D%0Aprefix+pdbo%3A++++%3Chttps%3A%2F%2Frdf.wwpdb.org%2Fschema%2Fpdbx-v50.owl%23%3E%0D%0Aprefix+dcterms%3A++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0Aprefix+glyconavi%3A++%3Chttp%3A%2F%2Fglyconavi.org%2Fontology%2Fpdb%23%3E%0D%0ASELECT+DISTINCT+%3Fid+%3Fmodel_num+%3Fprotein_db+%3Fdb_name%0D%0A+%3Fstrand_id+as+%3Fmod_chain+%3Fmod_comp_id+as+%3Fmod_aa+%3Fsequon+%3Fneighboring_sequence%0D%0A+%3Fglycan_type_label+as+%3Fgtype+%3Fmod_pos+%3Fgtc+%3Fwurcs+%23%3Fctfile%0D%0AFROM+%3Chttp%3A%2F%2Fglyconavi.org%2Ftcarp%3E%0D%0AWHERE+%7B%0D%0A++%3FTcarpEntry+a+glyconavi%3ATCarpEntry+%3B%0D%0A++++++++++++++dcterms%3Aidentifier+%3Fid+.%0D%0A++FILTER+%28+%3Fid+%3D+%221CKL%22+%29+%0D%0A++%23+Strand%0D%0A++%3FTcarpEntry+glyconavi%3Ahas_strand+%3Fstrand+.%0D%0A++%3Fstrand+dcterms%3Aidentifier+%3Fprotein_db+%3B%0D%0A++++++++++a+%3Fstrand_type+%3B%0D%0A++++++++++glyconavi%3Ahas_strand_id+%3Fstrand_id+%3B%0D%0A++++++++++glyconavi%3Ahas_db_name+%3Fdb_name+%3B%0D%0A++++++++++glyconavi%3Ahas_entity_id+%3Fentity_id+%3B%0D%0A++++++++++glyconavi%3Ahas_sequence+%3Faa_seq+.%0D%0A++%23+PDBModel%0D%0A++%3FTcarpEntry+glyconavi%3Ahas_PDB_model_glycan+%3Fmodel_glycan+.%0D%0A++%3Fmodel_glycan++glyconavi%3Ahas_model+%3Fmodel+.%0D%0A++%3Fmodel+a+glyconavi%3APDBModel+%3B%0D%0A++++++++%23glyconavi%3Ahas_ctfile+%3Fctfile+%3B%0D%0A++++++++glyconavi%3Ahas_pdbx_PDB_model_num+%3Fmodel_num+.%0D%0A++%23+Interaction+%28optional%29%0D%0A+%23+OPTIONAL+%7B+%3Fmodel+glyconavi%3Ahas_interaction+%3Finteraction+.+%7D%0D%0A++%23+Glycan+and+Glycosequence%0D%0A++%3Fmodel+glycan%3Ahas_glycan+%3Fglycan+.%0D%0A++%3Fglycan+%3Fa+glyconavi%3AWURCSStandard+%3B%0D%0A+++++++++++glycan%3Ahas_glycosequence+%3Fglycosequence+.%0D%0A++%3Fglycosequence+a+glycan%3AGlycosequence+%3B%0D%0A+++++++++++++++++glycan%3Ahas_sequence+%3Fwurcs+%3B%0D%0A+++++++++++++++++glycan%3Ain_carbohydrate_format+glycan%3Acarbohydrate_format_wurcs+.%0D%0A++OPTIONAL+%7B+%3Fglycan+glyconavi%3Ahas_glytoucan_id+%3Fgtc+.+%7D%0D%0A++%23+GlycosylationSite%0D%0A++%3Fmodel_glycan+glyconavi%3Ahas_glycosylation_site+%3Fptm_site+.%0D%0A++%3Fptm_site+a+glyconavi%3AGlycosylationSite+%3B%0D%0A++++++++++++glyconavi%3Ais_on_strand+%3Fstrand+%3B%0D%0A++++++++++++glyconavi%3Ahas_one_letter_code+%3Fone_letter_code+%3B%0D%0A++++++++++++glyconavi%3Ahas_sequence_before+%3Fsequence_before+%3B%0D%0A++++++++++++glyconavi%3Ahas_sequence_after+%3Fsequence_after+%3B%0D%0A++++++++++++glyconavi%3Ahas_asym_id+%3Fmod_asym_id+%3B%0D%0A++++++++++++glyconavi%3Ahas_entity_id+%3Fmod_entity_id+%3B%0D%0A++++++++++++glyconavi%3Ahas_seq_id+%3Fmod_pos+%3B%0D%0A++++++++++++glyconavi%3Ahas_asym_id+%3Fmod_asym_id+%3B%0D%0A++++++++++++glyconavi%3Ahas_comp_id+%3Fmod_comp_id+%3B%0D%0A++++++++++++glyconavi%3Ahas_atom_id+%3Fmod_atom_id+%3B%0D%0A++++++++++++glyconavi%3Ahas_glycan_type+%3Fglycan_type+.%0D%0A++%23+URI+for+pdbx_struct_mod_residue+%28optional%29%0D%0A++OPTIONAL+%7B+%3Fptm_site+glyconavi%3Ais_mod_residue+%3Fmod_residue+.+%7D%0D%0A+++FILTER+%28STRLEN%28%3Fsequence_after%29+%3D+3%29%0D%0A++BIND+%28CONCAT%28%3Fone_letter_code%2C+substr%28%3Fsequence_after%2C+1%2C+2%29%29+as+%3Fsequon%29%0D%0A++BIND+%28CONCAT%28%3Fsequence_before%2C%3Fsequon%29+as+%3Fneighboring_sequence%29++%0D%0A++OPTIONAL+%7B+%3Fptm_site+glyconavi%3Ahas_helix_info+%3Fhelix_info+.+%7D%0D%0A++OPTIONAL+%7B+%3Fptm_site+glyconavi%3Ahas_sheet_info+%3Fsheet_info+.+%7D%0D%0A++%3Fglycan_type+a+glyconavi%3AGlycanType%3B%0D%0A+++++++++++++++rdfs%3Alabel+%3Fglycan_type_label+.%0D%0A%7D%0D%0AORDER+BY+%3Fprotein_db+%3Fdb_name+%3Fmod_chain+%3Fmod_pos&format=text%2Fhtml&timeout=0&debug=on)
+
 ```
-PREFIX 
+DEFINE sql:select-option "order"
+prefix xsd:     <http://www.w3.org/2001/XMLSchema#>
+prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+prefix glycan:  <http://purl.jp/bio/12/glyco/glycan#>
+prefix pdbo:    <https://rdf.wwpdb.org/schema/pdbx-v50.owl#>
+prefix dcterms:  <http://purl.org/dc/terms/>
+prefix glyconavi:  <http://glyconavi.org/ontology/pdb#>
+SELECT DISTINCT ?id ?model_num ?protein_db ?db_name
+ ?strand_id as ?mod_chain ?mod_comp_id as ?mod_aa ?sequon ?neighboring_sequence
+ ?glycan_type_label as ?gtype ?mod_pos ?gtc ?wurcs #?ctfile
+FROM <http://glyconavi.org/tcarp>
+WHERE {
+  ?TcarpEntry a glyconavi:TCarpEntry ;
+              dcterms:identifier ?id .
+  FILTER ( ?id = "1CKL" ) 
+  # Strand
+  ?TcarpEntry glyconavi:has_strand ?strand .
+  ?strand dcterms:identifier ?protein_db ;
+          a ?strand_type ;
+          glyconavi:has_strand_id ?strand_id ;
+          glyconavi:has_db_name ?db_name ;
+          glyconavi:has_entity_id ?entity_id ;
+          glyconavi:has_sequence ?aa_seq .
+  # PDBModel
+  ?TcarpEntry glyconavi:has_PDB_model_glycan ?model_glycan .
+  ?model_glycan  glyconavi:has_model ?model .
+  ?model a glyconavi:PDBModel ;
+        #glyconavi:has_ctfile ?ctfile ;
+        glyconavi:has_pdbx_PDB_model_num ?model_num .
+  # Interaction (optional)
+ # OPTIONAL { ?model glyconavi:has_interaction ?interaction . }
+  # Glycan and Glycosequence
+  ?model glycan:has_glycan ?glycan .
+  ?glycan ?a glyconavi:WURCSStandard ;
+           glycan:has_glycosequence ?glycosequence .
+  ?glycosequence a glycan:Glycosequence ;
+                 glycan:has_sequence ?wurcs ;
+                 glycan:in_carbohydrate_format glycan:carbohydrate_format_wurcs .
+  OPTIONAL { ?glycan glyconavi:has_glytoucan_id ?gtc . }
+  # GlycosylationSite
+  ?model_glycan glyconavi:has_glycosylation_site ?ptm_site .
+  ?ptm_site a glyconavi:GlycosylationSite ;
+            glyconavi:is_on_strand ?strand ;
+            glyconavi:has_one_letter_code ?one_letter_code ;
+            glyconavi:has_sequence_before ?sequence_before ;
+            glyconavi:has_sequence_after ?sequence_after ;
+            glyconavi:has_asym_id ?mod_asym_id ;
+            glyconavi:has_entity_id ?mod_entity_id ;
+            glyconavi:has_seq_id ?mod_pos ;
+            glyconavi:has_asym_id ?mod_asym_id ;
+            glyconavi:has_comp_id ?mod_comp_id ;
+            glyconavi:has_atom_id ?mod_atom_id ;
+            glyconavi:has_glycan_type ?glycan_type .
+  # URI for pdbx_struct_mod_residue (optional)
+  OPTIONAL { ?ptm_site glyconavi:is_mod_residue ?mod_residue . }
+   FILTER (STRLEN(?sequence_after) = 3)
+  BIND (CONCAT(?one_letter_code, substr(?sequence_after, 1, 2)) as ?sequon)
+  BIND (CONCAT(?sequence_before,?sequon) as ?neighboring_sequence)  
+  OPTIONAL { ?ptm_site glyconavi:has_helix_info ?helix_info . }
+  OPTIONAL { ?ptm_site glyconavi:has_sheet_info ?sheet_info . }
+  ?glycan_type a glyconavi:GlycanType;
+               rdfs:label ?glycan_type_label .
+}
+ORDER BY ?protein_db ?db_name ?mod_chain ?mod_pos
 ```
 
 
