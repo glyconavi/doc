@@ -163,39 +163,43 @@
 
 * GlycoNAVI-SPARQList
 
-  * [SPARQList](https://github.com/dbcls/sparqlist) is a REST API server which executes a SPARQL query,
+  * [SPARQList](https://github.com/dbcls/sparqlist) is a REST API server which executes a SPARQL query.
+  
+    * List of SPARQLet
   
   
-  * https://sparqlist.glyconavi.org/TCarp_entry_citation
-  * https://sparqlist.glyconavi.org/TCarp_entry_summary
-  * https://sparqlist.glyconavi.org/TCarp_exptl_count
-  * https://sparqlist.glyconavi.org/TCarp_glycosylated_site
-  * https://sparqlist.glyconavi.org/TCarp_GTC
-  * https://sparqlist.glyconavi.org/TCarp_id_gtc_Interaction
-  * https://sparqlist.glyconavi.org/TCarp_id_model_gtc_mol
-  * https://sparqlist.glyconavi.org/TCarp_Interaction
-  * https://sparqlist.glyconavi.org/TCarp_Interaction_residue
-  * https://sparqlist.glyconavi.org/TCarp_Interaction_residue_pdbid
-  * https://sparqlist.glyconavi.org/TCarp_molfiles
-  * https://sparqlist.glyconavi.org/TCarp_PDB_glycan_interaction_sheet_helix
-  * https://sparqlist.glyconavi.org/TCarp_PDB_Glycosylation_type_Count
-  * https://sparqlist.glyconavi.org/TCarp_PDB_helix_info_count
-  * https://sparqlist.glyconavi.org/TCarp_PDB_sheet_info_count
-  * https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_GTC
-  * https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_PDBID
-  * https://sparqlist.glyconavi.org/TCarp_PDBID_Search_WURCS
-  * https://sparqlist.glyconavi.org/TCarp_PDBiD_WURCS_GTC
-  * https://sparqlist.glyconavi.org/TCarp_protein_list
-  * https://sparqlist.glyconavi.org/TCarp_proteindb_entry
-  * https://sparqlist.glyconavi.org/TCarp_Residues_near_glycans
-  * https://sparqlist.glyconavi.org/TCarp_Sequon_count
-  * https://sparqlist.glyconavi.org/TCarp_stdWURCS
-  * https://sparqlist.glyconavi.org/TCarp_text_Search
-  * https://sparqlist.glyconavi.org/TCarp_Uniprot_Glycoprotein_list
-  * https://sparqlist.glyconavi.org/TCarp_Uniprot_Lectin_list
-  * https://sparqlist.glyconavi.org/TCarp_Validation_atom
-  * https://sparqlist.glyconavi.org/TCarp_Validation_bond
-  * https://sparqlist.glyconavi.org/TCarp_Validation_sugar
+  * [https://sparqlist.glyconavi.org/TCarp_entry_citation](https://sparqlist.glyconavi.org/TCarp_entry_citation)
+  * [https://sparqlist.glyconavi.org/TCarp_entry_summary](https://sparqlist.glyconavi.org/TCarp_entry_summary)
+  * [https://sparqlist.glyconavi.org/TCarp_exptl_count](https://sparqlist.glyconavi.org/TCarp_exptl_count)
+  * [https://sparqlist.glyconavi.org/TCarp_glycosylated_site](https://sparqlist.glyconavi.org/TCarp_glycosylated_site)
+  * [https://sparqlist.glyconavi.org/TCarp_GTC](https://sparqlist.glyconavi.org/TCarp_GTC)
+  * [https://sparqlist.glyconavi.org/TCarp_id_gtc_Interaction](https://sparqlist.glyconavi.org/TCarp_id_gtc_Interaction)
+  * [https://sparqlist.glyconavi.org/TCarp_id_model_gtc_mol](https://sparqlist.glyconavi.org/TCarp_id_model_gtc_mol)
+  * [https://sparqlist.glyconavi.org/TCarp_Interaction](https://sparqlist.glyconavi.org/TCarp_Interaction)
+  * [https://sparqlist.glyconavi.org/TCarp_Interaction_residue](https://sparqlist.glyconavi.org/TCarp_Interaction_residue)
+  * [https://sparqlist.glyconavi.org/TCarp_Interaction_residue_pdbid](https://sparqlist.glyconavi.org/TCarp_Interaction_residue_pdbid)
+  * [https://sparqlist.glyconavi.org/TCarp_molfiles](https://sparqlist.glyconavi.org/TCarp_molfiles)
+  * [https://sparqlist.glyconavi.org/TCarp_PDB_glycan_interaction_sheet_helix](https://sparqlist.glyconavi.org/TCarp_PDB_glycan_interaction_sheet_helix)
+  * [https://sparqlist.glyconavi.org/TCarp_PDB_Glycosylation_type_Count](https://sparqlist.glyconavi.org/TCarp_PDB_Glycosylation_type_Count)
+  * [https://sparqlist.glyconavi.org/TCarp_PDB_helix_info_count](https://sparqlist.glyconavi.org/TCarp_PDB_helix_info_count)
+  * [https://sparqlist.glyconavi.org/TCarp_PDB_sheet_info_count](https://sparqlist.glyconavi.org/TCarp_PDB_sheet_info_count)
+  * [https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_GTC](https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_GTC)
+  * [https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_PDBID](https://sparqlist.glyconavi.org/TCarp_PDB_WURCS_PDBID)
+  * [https://sparqlist.glyconavi.org/TCarp_PDBID_Search_WURCS](https://sparqlist.glyconavi.org/TCarp_PDBID_Search_WURCS)
+  * [https://sparqlist.glyconavi.org/TCarp_PDBiD_WURCS_GTC](https://sparqlist.glyconavi.org/TCarp_PDBiD_WURCS_GTC)
+  * [https://sparqlist.glyconavi.org/TCarp_protein_list](https://sparqlist.glyconavi.org/TCarp_protein_list)
+  * [https://sparqlist.glyconavi.org/TCarp_proteindb_entry](https://sparqlist.glyconavi.org/TCarp_proteindb_entry)
+  * [https://sparqlist.glyconavi.org/TCarp_Residues_near_glycans](https://sparqlist.glyconavi.org/TCarp_Residues_near_glycans)
+  * [https://sparqlist.glyconavi.org/TCarp_Sequon_count](https://sparqlist.glyconavi.org/TCarp_Sequon_count)
+  * [https://sparqlist.glyconavi.org/TCarp_stdWURCS](https://sparqlist.glyconavi.org/TCarp_stdWURCS)
+  * [https://sparqlist.glyconavi.org/TCarp_text_Search](https://sparqlist.glyconavi.org/TCarp_text_Search)
+  * [https://sparqlist.glyconavi.org/TCarp_Uniprot_Glycoprotein_list](https://sparqlist.glyconavi.org/TCarp_Uniprot_Glycoprotein_list)
+  * [https://sparqlist.glyconavi.org/TCarp_Uniprot_Lectin_list](https://sparqlist.glyconavi.org/TCarp_Uniprot_Lectin_list)
+  * [https://sparqlist.glyconavi.org/TCarp_Validation_atom](https://sparqlist.glyconavi.org/TCarp_Validation_atom)
+  * [https://sparqlist.glyconavi.org/TCarp_Validation_bond](https://sparqlist.glyconavi.org/TCarp_Validation_bond)
+  * [https://sparqlist.glyconavi.org/TCarp_Validation_sugar](https://sparqlist.glyconavi.org/TCarp_Validation_sugar)
+  
+
 
 
 
