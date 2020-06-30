@@ -63,9 +63,9 @@
 
 
 
-  * Common Name Search is a search that utilizes trivial names, synonyms, abbreviations and other carbohydrate names based on CAN resource of GlycoNAVI.
+  * [Common Name Search](https://glyconavi.org/CAN/can-tcarp.php) is a search that utilizes trivial names, synonyms, abbreviations and other carbohydrate names based on CAN resource of GlycoNAVI.
   
-  1. Click the Common Name Search image.
+  1. Click the [Common Name Search](https://glyconavi.org/CAN/can-tcarp.php) image.
   
   2. Typing your search query into the text box.
   
@@ -82,9 +82,9 @@
   ![image](https://user-images.githubusercontent.com/2530360/86121761-8f39f600-bb11-11ea-9693-3db849616325.png)
 
 
-  * Motif Search is a search that utilizes glycan motif structures.
+  * [Motif Search](https://glyconavi.org/Glycans/motif-tcarp-table.php) is a search that utilizes glycan motif structures.
 
-  1. Click the Motif Search image.
+  1. Click the [Motif Search](https://glyconavi.org/Glycans/motif-tcarp-table.php) image.
   
   2. Enter your search query in the text box or browse the table to find the motif structure.
   
@@ -107,19 +107,19 @@
  ![image](https://user-images.githubusercontent.com/2530360/86122683-33706c80-bb13-11ea-8dfb-73eebcacaa3f.png)
 
 
-  * Table of carbohydrates structures in the Protein Data Bank
+  * Table of [carbohydrates structures in the Protein Data Bank](https://glyconavi.org/Glycans/pdb-saccharide_table.php)
   
   ![image](https://user-images.githubusercontent.com/2530360/86122397-bcd36f00-bb12-11ea-9445-ae3fee43a304.png)
 
-  * Table of proteins containing carbohydrate in the Protein Data Bank
+  * Table of [proteins containing carbohydrate in the Protein Data Bank](https://glyconavi.org/Proteins/db_table.php)
   
   ![image](https://user-images.githubusercontent.com/2530360/86122507-ebe9e080-bb12-11ea-8679-37a0f2aa64f0.png)
 
-  * Table of glycoproteins containing carbohydrate in the Protein Data Bank
+  * Table of [glycoproteins containing carbohydrate in the Protein Data Bank](https://glyconavi.org/Glycoproteins/db_table.php)
   
   ![image](https://user-images.githubusercontent.com/2530360/86122569-02903780-bb13-11ea-8ef2-4d2ec19e8913.png)
 
-  * Table of lectins containing carbohydrate in the Protein Data Bank
+  * Table of [lectins containing carbohydrate in the Protein Data Bank](https://glyconavi.org/Lectins/db_table.php)
   
   ![image](https://user-images.githubusercontent.com/2530360/86122614-16d43480-bb13-11ea-98f7-771e58012ef4.png)
 
