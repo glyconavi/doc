@@ -7,7 +7,7 @@
 
 ## Data Resources
 
-* [TCarp doc](/doc/tcarp/)
+* [TCarp documantation](/doc/tcarp/)
 
 ## Release notes
 
