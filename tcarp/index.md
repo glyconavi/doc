@@ -102,13 +102,26 @@
 
 * Structural Categoly
 
+　1. Click on an image of the categories and search using the displayed table.
+ 
+ ![image](https://user-images.githubusercontent.com/2530360/86122683-33706c80-bb13-11ea-8dfb-73eebcacaa3f.png)
+
+
   * Table of carbohydrates structures in the Protein Data Bank
+  
+  ![image](https://user-images.githubusercontent.com/2530360/86122397-bcd36f00-bb12-11ea-9445-ae3fee43a304.png)
 
   * Table of proteins containing carbohydrate in the Protein Data Bank
+  
+  ![image](https://user-images.githubusercontent.com/2530360/86122507-ebe9e080-bb12-11ea-8679-37a0f2aa64f0.png)
 
   * Table of glycoproteins containing carbohydrate in the Protein Data Bank
+  
+  ![image](https://user-images.githubusercontent.com/2530360/86122569-02903780-bb13-11ea-8ef2-4d2ec19e8913.png)
 
   * Table of lectins containing carbohydrate in the Protein Data Bank
+  
+  ![image](https://user-images.githubusercontent.com/2530360/86122614-16d43480-bb13-11ea-98f7-771e58012ef4.png)
 
 
 ### Entry Page
