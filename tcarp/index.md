@@ -19,7 +19,16 @@
 
   * TCarp Text Search is a text search for proteins using strings such as Title, Descriptor, PDB ID, Uniprot ID, and common name.
 
+<img width="500" alt="text_serch" src="https://user-images.githubusercontent.com/2530360/86117713-7a0d9900-bb0a-11ea-81c7-913f5b2cab4c.png">
 
+  * Typing your search query into the text box and pushing the search button.
+  
+![image](https://user-images.githubusercontent.com/2530360/86117908-d7a1e580-bb0a-11ea-8358-6f1778c70bed.png)
+
+  * You can refine your search by using the search box on the upper right.
+  
+  * Browse the table and click on the TCarp ID link to go to the details page of TCarp.
+  
 
 * Glycan Structure
 
