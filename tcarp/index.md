@@ -84,6 +84,20 @@
 
   * Motif Search is a search that utilizes glycan motif structures.
 
+  1. Click the Motif Search image.
+  
+  2. Enter your search query in the text box or browse the table to find the motif structure.
+  
+  3. Clicking on Motif or WURCS will display a list of entries containing that glycan structure. (If no entry is found, "No data available in table" is displayed.)
+
+  4. Browse the table and click on the TCarp ID link to go to the details page of TCarp.
+
+
+![image](https://user-images.githubusercontent.com/2530360/86121936-df18bd00-bb11-11ea-966c-d3f96ff7c016.png)
+
+
+![image](https://user-images.githubusercontent.com/2530360/86122163-4b93bc00-bb12-11ea-94d0-d3c6ac6a49e7.png)
+
 
 
 * Structural Categoly
