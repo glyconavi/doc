@@ -126,7 +126,34 @@
 
 ### Entry Page
 
-* 
+* The TCarp entry page contains information on the three-dimensional structure of the glycans and proteins, structural information near the glycans, information on the glycosylation sites of the glycoproteins, citation information, and a structure validation report.
+
+
+  * Protein Information: e.g. [TCarp:1CKL](https://glyconavi.org/Proteins/entry.php?id=1CKL)
+
+![image](https://user-images.githubusercontent.com/2530360/86125588-e216ac00-bb17-11ea-92e1-9ff638e8c09e.png)
+
+  * Saccharide Information: e.g. [TCarp:1CKL](https://glyconavi.org/Proteins/entry.php?id=1CKL)
+
+![image](https://user-images.githubusercontent.com/2530360/86125630-f5297c00-bb17-11ea-81f8-a1d1cc9ea574.png)
+
+  * Residues near the glycans: e.g. [TCarp:1CKL](https://glyconavi.org/Proteins/entry.php?id=1CKL)
+
+![image](https://user-images.githubusercontent.com/2530360/86125704-10948700-bb18-11ea-84ec-a0613baa42e2.png)
+
+  * Glycosylation Information: e.g. [TCarp:1CKL](https://glyconavi.org/Proteins/entry.php?id=1CKL) 
+  
+![image](https://user-images.githubusercontent.com/2530360/86125755-230ec080-bb18-11ea-9c0d-dd500a7cb0e6.png)
+
+  * Citation: e.g. [TCarp:1CKL](https://glyconavi.org/Proteins/entry.php?id=1CKL)
+
+![image](https://user-images.githubusercontent.com/2530360/86125792-31f57300-bb18-11ea-94dd-e75b050cdd46.png)
+
+  * Validation Report: e.g. [TCarp:4PEZ](https://glyconavi.org/Proteins/entry.php?id=4PEZ)
+
+![image](https://user-images.githubusercontent.com/2530360/86126107-b6e08c80-bb18-11ea-9a21-458818accfe1.png)
+
+
 
 ## Programmatic Access
 
