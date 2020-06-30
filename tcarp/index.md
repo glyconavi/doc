@@ -1,59 +1,69 @@
-# TCarp documantation
+# GlycoNAVI TCarp Documantation
 
 * [GlycoNAVI documantation](/doc/)
+
+## About GlycoNAVI TCarp
+
+* [GlycoNAVI TCarp](https://glyconavi.org/TCarp/) is a database that provides information on glycan structures, and can access to data of  glycans and proteins using Semantic Web technology, that is a secondary database of PDB to provide extracted and annotated glycan structures and their surrounding environment. Users can access to the data not only from a browser but also through our SPARQL endpoint and APIs.
 
 
 ## How to use
 
 ### Search
 
-#### text, ID
+*  text, ID
 
-* TCarp Text Search is a text search for proteins using strings such as Title, Descriptor, PDB ID, Uniprot ID, and common name.
-
-
-
-#### Glycan Structure
-
-* Draw and Search for a glycan structure using SugarDrawer.
-
-* Common Name Search is a search that utilizes trivial names, synonyms, abbreviations and other carbohydrate names based on CAN resource of GlycoNAVI.
-
-* Motif Search is a search that utilizes glycan motif structures.
+  * TCarp Text Search is a text search for proteins using strings such as Title, Descriptor, PDB ID, Uniprot ID, and common name.
 
 
 
-#### Structural categoly
+* Glycan Structure
 
-* Table of carbohydrates structures in the Protein Data Bank
+  * Drawing and searching glycan structures using SugarDrawer.
 
-* Table of proteins containing carbohydrate in the Protein Data Bank
+  * Common Name Search is a search that utilizes trivial names, synonyms, abbreviations and other carbohydrate names based on CAN resource of GlycoNAVI.
 
-* Table of glycoproteins containing carbohydrate in the Protein Data Bank
-
-* Table of lectins containing carbohydrate in the Protein Data Bank
+  * Motif Search is a search that utilizes glycan motif structures.
 
 
-### entry page
 
+* Structural Categoly
+
+  * Table of carbohydrates structures in the Protein Data Bank
+
+  * Table of proteins containing carbohydrate in the Protein Data Bank
+
+  * Table of glycoproteins containing carbohydrate in the Protein Data Bank
+
+  * Table of lectins containing carbohydrate in the Protein Data Bank
+
+
+### Entry Page
+
+* 
 
 ## Programmatic Access
 
 * GlycoNAVI provides several ways for programmatic access to its data, including:
 
-### REST-style interface
+### Web Service Interface
 
-#### GlycoNAVI-SPARQList
+* GlycoNAVI-SPARQList
+
+  * [SPARQList](https://github.com/dbcls/sparqlist) is a REST API server which executes a SPARQL query,
 
 
 
 ### SPARQL Endpoint
 
-#### SPARQL Endpoint URL: https://sparql.glyconavi.org/sparql
+* This is a web interface designed to access RDF-encoded GlycoNAVI-TCarp data.
 
-#### Graph: `http://glyconavi.org/tcarp`
 
-#### SPARQL Queries
+  * SPARQL Endpoint URL: https://sparql.glyconavi.org/sparql
+
+  * Graph: `http://glyconavi.org/tcarp`
+
+  * SPARQL Queries
 
 1. Glycosylation site information
 
@@ -85,12 +95,6 @@ PREFIX
   * Statistics of the paired structure of glycans and amino acid residues around carbohydrates in the Protein Data Bank
 
 * Statistics of the experimental methods
-
-
-
-
-
-
 
 
 
