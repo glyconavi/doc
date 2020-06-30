@@ -19,13 +19,13 @@
 
     * TCarp Text Search is a text search for proteins using strings such as Title, Descriptor, PDB ID, Uniprot ID, and common name.
 
-1. Typing your search query into the text box and pushing the search button.
+    1. Typing your search query into the text box and pushing the search button.
     
-2. The results of the text search will be displayed in a table.
+    2. The results of the text search will be displayed in a table.
 
-3. You can refine your search by using the search box on the upper right.
+    3. You can refine your search by using the search box on the upper right.
 
-4. Browse the table and click on the TCarp ID link to go to the details page of TCarp.
+    4. Browse the table and click on the TCarp ID link to go to the details page of TCarp.
 
 <img width="500" alt="text_serch" src="https://user-images.githubusercontent.com/2530360/86117713-7a0d9900-bb0a-11ea-81c7-913f5b2cab4c.png">
 
@@ -37,6 +37,31 @@
 * Glycan Structure
 
   * Drawing and searching glycan structures using SugarDrawer.
+  
+  1. Go to the search site of [SugarDrawer](https://glyconavi.org/Draw/index.php).
+  
+  2. Drawing the glycan structures to be searched for using SugarDrawer.
+  
+  3. pushing the search button.
+  
+  4. The searched glycan structure and the accession number of GlyTouCan are displayed below the search button.
+  
+  5. A list of entries containing glycan structures will be displayed.
+  
+  6. Browse the table and click on the TCarp ID link to go to the details page of TCarp.
+
+  
+![image](https://user-images.githubusercontent.com/2530360/86119782-11282000-bb0e-11ea-83af-b61b37abe5f5.png)
+
+
+![image](https://user-images.githubusercontent.com/2530360/86120288-fe621b00-bb0e-11ea-8017-ea450f33d202.png)
+
+
+![image](https://user-images.githubusercontent.com/2530360/86120510-657fcf80-bb0f-11ea-80d5-261e3ae89b51.png)
+
+![image](https://user-images.githubusercontent.com/2530360/86120758-d921dc80-bb0f-11ea-9d64-84e82c0233f1.png)
+
+
 
   * Common Name Search is a search that utilizes trivial names, synonyms, abbreviations and other carbohydrate names based on CAN resource of GlycoNAVI.
 
