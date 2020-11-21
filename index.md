@@ -29,9 +29,16 @@
 
 * https://glyconavi.org/hub/?id={id} 
 
-  * [https://glyconavi.org/hub/?id=6D64](https://glyconavi.org/hub/?id=6D64)
+  * PDB: [https://glyconavi.org/hub/?id=6D64](https://glyconavi.org/hub/?id=6D64)
  
-  * [https://glyconavi.org/hub/?id=P03472](https://glyconavi.org/hub/?id=P03472)
+  * Uniprot: [https://glyconavi.org/hub/?id=P03472](https://glyconavi.org/hub/?id=P03472)
+
+  * GlyTouCan: [https://glyconavi.org/hub/?id=G03681DA](https://glyconavi.org/hub/?id=G03681DA)
+  
+## WURCS Hub
+
+  * WURCS: [https://glyconavi.org/hub/?wurcs=WURCS=2.0/1,1,0/[a2112h-1b_1-5_2*NCC/3=O_6*OSO/3=O/3=O]/1/](https://glyconavi.org/hub/?wurcs=WURCS=2.0/1,1,0/[a2112h-1b_1-5_2*NCC/3=O_6*OSO/3=O/3=O]/1/)
+
 
 ## Resource
 
