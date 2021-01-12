@@ -46,11 +46,11 @@
 
 * https://glyconavi.org/hub/img/?id={id} 
 
-https://glyconavi.org/hub/img/?id=STR_3
+  * STR: [https://glyconavi.org/hub/img/?id=STR_3](https://glyconavi.org/hub/img/?id=STR_3)
 
-https://glyconavi.org/hub/img/?id=GS_187_G2
+  * GS: [https://glyconavi.org/hub/img/?id=GS_187_G2](https://glyconavi.org/hub/img/?id=GS_187_G2)
 
-https://glyconavi.org/hub/img/?id=G69411IG
+  * GTC: [https://glyconavi.org/hub/img/?id=G69411IG](https://glyconavi.org/hub/img/?id=G69411IG)
 
 ## Resource
 
