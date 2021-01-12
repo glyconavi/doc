@@ -46,6 +46,8 @@
 
 * https://glyconavi.org/hub/img/?id={id} 
 
+(GS_187_G2, G69411IG)
+
 ## Resource
 
 * Glycans
