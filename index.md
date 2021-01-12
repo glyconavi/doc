@@ -46,7 +46,11 @@
 
 * https://glyconavi.org/hub/img/?id={id} 
 
-(GS_187_G2, G69411IG)
+https://glyconavi.org/hub/img/?id=STR_3
+
+https://glyconavi.org/hub/img/?id=GS_187_G2
+
+https://glyconavi.org/hub/img/?id=G69411IG
 
 ## Resource
 
