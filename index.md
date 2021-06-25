@@ -30,7 +30,7 @@
 * https://glyconavi.org/hub/?id={id} 
 
   * GlycoNAVI: [https://glyconavi.org/hub/?id=GN_G03681DA](https://glyconavi.org/hub/?id=GN_G03681DA)
-  * 
+  
   * PDB: [https://glyconavi.org/hub/?id=6D64](https://glyconavi.org/hub/?id=6D64)
  
   * Uniprot: [https://glyconavi.org/hub/?id=P03472](https://glyconavi.org/hub/?id=P03472)
