@@ -9,9 +9,6 @@
 
 * [TCarp documantation](/doc/tcarp/)
 
-## Release notes
-
-* TODO:
 
 ## API
 
@@ -72,4 +69,8 @@
 
 * 
 
+
+## Release notes
+
+* TODO:
 
