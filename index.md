@@ -26,22 +26,37 @@
 
   * https://glyconavi.org/hub/?id={id} 
 
-  * GlycoNAVI: [https://glyconavi.org/hub/?id=GN_G03681DA](https://glyconavi.org/hub/?id=GN_G03681DA)
+### GlyTouCan ID
+
+  * GlycoNAVI: [https://glyconavi.org/hub/?id=G03681DA](https://glyconavi.org/hub/?id=G03681DA)
   
+  * GlycoNAVI: [https://glyconavi.org/hub/?id=GN_G03681DA](https://glyconavi.org/hub/?id=GN_G03681DA)
+
+  * GlycoNAVI: [https://glyconavi.org/hub/?id=GN_GlyTouCan_G03681DA](https://glyconavi.org/hub/?id=GN_GlyTouCan_G03681DA)
+
+  * GlycoNAVI: [https://glyconavi.org/hub/?id=GN_GTC_G03681DA](https://glyconavi.org/hub/?id=GN_GTC_G03681DA)
+
+### PDB ID
+
   * PDB: [https://glyconavi.org/hub/?id=6D64](https://glyconavi.org/hub/?id=6D64)
- 
+
+  * PDB: [https://glyconavi.org/hub/?id=PDB_6D64](https://glyconavi.org/hub/?id=PDB_6D64)
+
+
+### Uniprot ID
+
   * Uniprot: [https://glyconavi.org/hub/?id=P03472](https://glyconavi.org/hub/?id=P03472)
 
-  * GlyTouCan: [https://glyconavi.org/hub/?id=G03681DA](https://glyconavi.org/hub/?id=G03681DA)
+  * Uniprot: [https://glyconavi.org/hub/?id=Uniprot_P03472](https://glyconavi.org/hub/?id=Uniprot_P03472)
 
 
 ## identifiers.org
 
-  * PDB: [https://identifiers.org/glyconavi/GN_6D64](https://identifiers.org/glyconavi/GN_6D64)
+  * PDB: [https://identifiers.org/glyconavi/GN_PDB_6D64](https://identifiers.org/glyconavi/GN_PDB_6D64)
 
-  * Uniprot: [https://identifiers.org/glyconavi/GN_P03472](https://identifiers.org/glyconavi/GN_P03472)
+  * Uniprot: [https://identifiers.org/glyconavi/GN_Uniprot_P03472](https://identifiers.org/glyconavi/GN_Uniprot_P03472)
 
-  * GlyTouCan: [https://identifiers.org/glyconavi/GN_G03681DA](https://identifiers.org/glyconavi/GN_G03681DA)
+  * GlyTouCan: [https://identifiers.org/glyconavi/GN_GlyTouCan_G03681DA](https://identifiers.org/glyconavi/GN_GlyTouCan_G03681DA)
 
 
 ## WURCS Hub
