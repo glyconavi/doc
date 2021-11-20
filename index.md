@@ -52,6 +52,8 @@
 
 ## identifiers.org
 
+  * GlycoNAVI CAN: [https://identifiers.org/glyconavi/GN_CAN1](https://identifiers.org/glyconavi/GN_CAN1)
+
   * PDB: [https://identifiers.org/glyconavi/GN_PDB_6D64](https://identifiers.org/glyconavi/GN_PDB_6D64)
 
   * Uniprot: [https://identifiers.org/glyconavi/GN_Uniprot_P03472](https://identifiers.org/glyconavi/GN_Uniprot_P03472)
