@@ -28,3 +28,21 @@
 - CSEditorの新しいバージョン(version 0.0.0.65)を公開しました。略号BOMの処理に不具合がありました。(2012/2/10)
 - GlycoNAVI：分子情報データベース　テスト公開開始＆更新しました。(2012/2/7)
 - GlycoNAVI Database に合成反応データを追加しました。(2012/2/2)
+
+
+| Data | Description |
+| ------ | ------ |
+| グライコナビ [[GlycoNAVI](http://www.glyconavi.org/)] | 糖質研究をサポートする目的で構築しているシステム。データベースや各種ツールなどを提供しています。 |
+| グライコナビデータベース [[GlycoNAVI Database](http://ws.glyconavi.org/)] | 糖質化合物の合成反応、有機化学で用いられる略号、糖質の相互作用、コンフォメーション、低分子、アノマー比などのデータベース。開発中のデータベースも含めて公開しています。 |
+| GlycoNAVI: [Mole](http://ws.glyconavi.org/DbDetail/moldblist.aspx) | 糖質合成に利用される試薬などを含むの分子のデータベース: Molecular。MOLfile, InChIなどを収録 |
+| GlycoNAVI: [Syns](http://ws.glyconavi.org/dbDetail/rxndblist.aspx) | 糖質合成に利用される化学反応のデータベース: Chemical Synthesis。原料、試薬、溶媒、反応条件、書誌情報などを収録 |
+| GlycoNAVI: [MoIn](http://ws.glyconavi.org/MolInfo/) | 糖質のNMR,融点、旋光度などのデータベース: Molecular Information。書誌情報なども収録 |
+| GlycoNAVI: [CheAb](http://ws.glyconavi.org/CheAb/) | 糖質のNMR,融点、旋光度などのデータベース: Chemical Abbreviation。書誌情報なども収録 |
+| GlycoNAVI: [Carint](http://ws.glyconavi.org/carint/) | 糖質とタンパクなどの相互作用のデータベース: Carbohydrate Interaction。STD-NMRなどの手法による糖質の相互作用を収録 |
+| GlycoNAVI: [C3DB](http://ws.glyconavi.org/C3DB/CC/contents/) | 計算による糖質のコンフォメーションのデータベース: Computed Conformation。コンフォメーション探索などの手法による糖質のコンフォメーションを収録 |
+| GlycoNAVI: [PrAIs](http://ws.glyconavi.org/PrAIs/) | 糖質のアノマー異性体比のデータベース: Proportion of Anomeric Isomers。糖質のアノマー比、分析条件、書誌情報などを収録 |
+| GlycoNAVI: [SMSA](http://ws.glyconavi.org/SM/) | NMRなどの分析実験に用いられる小分子のデータベース: Small molecules for Spectral Analysis。小分子の他のデータベースとのリンクを収録 |
+| グライコナビツール [GlycoNAVI Tools / [CSEditor](http://www.glyconavi.org/cseditor/index.htm)] | 二次元化学構造式の描画編集ソフト 単糖認識機能、単糖記号表示への変換、配座、ナンバリングなど糖関連の独自機能がある。 |
+| グライコナビツール:分子情報形式コンバーター[ GlycoNAVI Tools / [Format Converter](http://ws.glyconavi.org/Convert/) ] | 化学構造保存形式を変換するサービス Molfile to KCF(Glycan) and Molfile to SMILES |
+| 糖鎖合成経路探索システム [[Route Searching System for Glycan Synthesis](http://www.glyconavi.org/route.html)] | 糖鎖有機合成の文献情報から合成経路を提案するシステム 東京大学工学系研究科船津公人教授との共同研究により開発してきたシステムであり，糖鎖構造を容易に描画し検索を行うことができます． |
+
