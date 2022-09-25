@@ -326,3 +326,7 @@ ORDER BY ?protein_db ?db_name ?mod_chain ?mod_pos
   * [Feedback](https://glyconavi.org/Feedback/)
 
 
+## Related research
+
+* A systematic analysis of protein-carbohydrate interactions in the Protein Data Bank
+   * Glycobiology. 2021 Feb 9;31(2):126-136. PMID: [32614943](https://pubmed.ncbi.nlm.nih.gov/32614943/) DOI: [10.1093/glycob/cwaa062](https://doi.org/10.1093/glycob/cwaa062)
