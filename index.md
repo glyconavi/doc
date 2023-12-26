@@ -86,6 +86,8 @@
 
 * 
 
+## Public data
+* https://public.glyconavi.org/
 
 ## Release notes
 
