@@ -96,7 +96,8 @@
 ## Public data
 * [https://public.glyconavi.org/](https://public.glyconavi.org/)
 
-* GlycanBuilder2 software: [https://public.glyconavi.org/#GlycanBuilder2_mac_apple](https://public.glyconavi.org/#GlycanBuilder2_mac_apple)
+* Software: [https://public.glyconavi.org/soft/](https://public.glyconavi.org/soft/)
+  * GlycanBuilder2: [https://public.glyconavi.org/#GlycanBuilder2_mac_apple](https://public.glyconavi.org/#GlycanBuilder2_mac_apple)
 
 
 
