@@ -81,13 +81,25 @@
 ## Resource
 
 * Glycans
+  * 3D structure: [https://glyconavi.org/Glycans/3d/view/index.php?id=G00052MO ](https://glyconavi.org/Glycans/3d/view/index.php?id=G00052MO)
+  * 3D structure with ctrl: [https://glyconavi.org/Glycans/3d/view_ctrl/index.php?id=G00052MO](https://glyconavi.org/Glycans/3d/view_ctrl/index.php?id=G00052MO)
+  * 3D structure(white): [https://glyconavi.org/Glycans/3d/view_white/index.php?id=G00052MO ](https://glyconavi.org/Glycans/3d/view_white/index.php?id=G00052MO)
+  * 3D structure with ctrl(white): [https://glyconavi.org/Glycans/3d/view_ctrl_white/index.php?id=G00052MO](https://glyconavi.org/Glycans/3d/view_ctrl_white/index.php?id=G00052MO)
+
+  * 3D structure (rdf and MD): [https://public.glyconavi.org/pub/wurcs/3d/](https://public.glyconavi.org/pub/wurcs/3d/)
+  * 
 
 * Proteins
 
 * 
 
 ## Public data
-* https://public.glyconavi.org/
+* [https://public.glyconavi.org/](https://public.glyconavi.org/)
+
+* GlycanBuilder2 software: [https://public.glyconavi.org/#GlycanBuilder2_mac_apple](https://public.glyconavi.org/#GlycanBuilder2_mac_apple)
+
+
+
 
 ## Release notes
 
