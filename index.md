@@ -1,6 +1,26 @@
 
 ![GlycoNAVI Logo](https://glyconavi.org/img/GlycoNAVI.png)
 
+
+
+
+# **お知らせ**：GlycoNAVIサービスの不具合について
+* 現在、GlycoNAVIのサービスに不具合が発生しており、サービスを停止しております。原因については現在調査中であり、ご利用の皆さまにはご不便・ご迷惑をおかけしておりますことを深くお詫び申し上げます。
+* 復旧の目途が立ち次第、あらためてご案内いたしますので、今しばらくお待ちいただけますようお願い申し上げます。
+ 
+* [お問い合わせ先](https://docs.google.com/forms/d/e/1FAIpQLSd_BsOYkKP1T9bnRj4f5zuOSmTftRJ-CulCrj7UlKMHSjBZwA/viewform?usp=dialog)
+ 
+
+# **Notice**: Service Interruption of GlycoNAVI
+* We are currently experiencing a service issue with GlycoNAVI, and the service is temporarily unavailable. The cause of the issue is under investigation.
+ 
+* We sincerely apologize for any inconvenience this may cause. We will provide an update as soon as the situation is resolved. We kindly ask for your patience and understanding in the meantime.
+ 
+* [Contact](https://docs.google.com/forms/d/e/1FAIpQLSd_BsOYkKP1T9bnRj4f5zuOSmTftRJ-CulCrj7UlKMHSjBZwA/viewform?usp=dialog)
+
+
+
+
 ## Database site
 
 * [https://glyconavi.org](https://glyconavi.org)
