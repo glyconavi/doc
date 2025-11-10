@@ -1,20 +1,19 @@
 
 ![GlycoNAVI Logo](https://glyconavi.org/img/GlycoNAVI.png)
 
-
-
-
-# **お知らせ**：GlycoNAVIサービスの不具合について
-* 現在、GlycoNAVIのサービスに不具合が発生しており、サービスを停止しております。原因については現在調査中であり、ご利用の皆さまにはご不便・ご迷惑をおかけしておりますことを深くお詫び申し上げます。
-* 復旧の目途が立ち次第、あらためてご案内いたしますので、今しばらくお待ちいただけますようお願い申し上げます。
- 
+# **お知らせ**：GlycoNAVIサービス再公開について
+* 先日より不具合のため停止しておりました GlycoNAVI サービスにつきまして、復旧作業が完了し、サービスを再公開いたしました。
+ご利用の皆さまには、長期間にわたりご不便・ご迷惑をおかけしましたことを、改めて深くお詫び申し上げます。
+今後とも、GlycoNAVIをご愛顧賜りますようお願い申し上げます。 
 * [お問い合わせ先](https://docs.google.com/forms/d/e/1FAIpQLSd_BsOYkKP1T9bnRj4f5zuOSmTftRJ-CulCrj7UlKMHSjBZwA/viewform?usp=dialog)
- 
 
-# **Notice**: Service Interruption of GlycoNAVI
-* We are currently experiencing a service issue with GlycoNAVI, and the service is temporarily unavailable. The cause of the issue is under investigation.
- 
-* We sincerely apologize for any inconvenience this may cause. We will provide an update as soon as the situation is resolved. We kindly ask for your patience and understanding in the meantime.
+
+
+
+# **Notice**: GlycoNAVI Service Resumed
+* We are pleased to inform you that the GlycoNAVI service, which had been temporarily suspended due to technical issues, has now been fully restored.
+* We sincerely apologize for the inconvenience caused during the downtime and greatly appreciate your patience and understanding.
+Thank you for your continued support of GlycoNAVI.
  
 * [Contact](https://docs.google.com/forms/d/e/1FAIpQLSd_BsOYkKP1T9bnRj4f5zuOSmTftRJ-CulCrj7UlKMHSjBZwA/viewform?usp=dialog)
 
