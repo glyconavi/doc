@@ -1,6 +1,19 @@
 
 ![GlycoNAVI Logo](https://glyconavi.org/img/GlycoNAVI.png)
 
+## GlycanBuilderホームページの改ざんと復旧に関するお知らせ
+ 
+2026年8月17日から8月27日までの期間、GlycanBuilderホームページ（https://glycanbuilder.glyconavi.org）への不正アクセスと思われる事案が発生し、閲覧された方に**偽の「ロボットではありません」確認画面**が表示される事象が発生していたことが判明しました。
+現在は原因を取り除き、サイトは通常どおりご利用いただけます。
+**なお、GlycanBuilder本体（ダウンロードしていただいたソフトウェア）に改ざんはありません**。Microsoft StoreおよびGitHubから直接配信されており、影響がないことを確認しております。
+ 
+また、当研究所が保有する**個人情報の外部流出はございません**。　
+ 
+偽の確認画面上で何らかの操作をされた場合は、念のため、下記のサイトを参考に対策を行っていただくことを推奨いたします。
+[ClickFix（クリックフィックス）とは|大阪府警本部](https://www.police.pref.osaka.lg.jp/seikatsu/saiba/cyber_shiryou/cybersecurity_tsushin/8/24567.html#)
+ 
+ご利用の皆様に多大なご心配とご迷惑をおかけいたしましたことを、深くお詫び申し上げます。
+
 
 * [Contact](https://docs.google.com/forms/d/e/1FAIpQLSd_BsOYkKP1T9bnRj4f5zuOSmTftRJ-CulCrj7UlKMHSjBZwA/viewform?usp=dialog)
 
