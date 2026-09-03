@@ -15,6 +15,24 @@
 ご利用の皆様に多大なご心配とご迷惑をおかけいたしましたことを、深くお詫び申し上げます。
 
 
+## GlycanBuilder Website: Notice and Update of a Security Incident
+ 
+There was an incident of an unauthorized access to the GlycanBuilder website (GlycanBuilder: Create Glycan Diagrams and Explore Related Data) from **August 17 to August 27, 2026**.
+We confirmed that our website visitors were shown a **fake "I'm not a robot" verification screen** during this period.
+ 
+We **removed the cause of the issue and the website is available and safe** to resume normal usage.
+ 
+Please note that the **GlycanBuilder software itself** (the downloadable application) **was not tampered** with. The app is licensed and distributed directly through Microsoft Store and GitHub, and we confirmed that it was not affected.
+In addition, there has been **NO bleach of personal information** held by our institute that was caused by this incident.
+ 
+If you performed any actions as directed on the fake verification screen, we recommend you take precaution and take appropriate countermeasures by referring to the websites below.  
+https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2025-068/
+ 
+We sincerely apologize for any concerns and inconveniences this may have caused.
+
+
+
+
 * [Contact](https://docs.google.com/forms/d/e/1FAIpQLSd_BsOYkKP1T9bnRj4f5zuOSmTftRJ-CulCrj7UlKMHSjBZwA/viewform?usp=dialog)
 
 
