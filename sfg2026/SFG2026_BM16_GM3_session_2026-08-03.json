@@ -1,0 +1,308 @@
+{
+ "schema": "sfg2026-bm16-session-record",
+ "version": "1.0",
+ "session": {
+  "interface": "claude.ai",
+  "language_model": "Claude (Anthropic); model version not recorded in the transcript",
+  "date": "2026-08-03",
+  "last_updated_utc": "2026-08-04T07:45:48Z",
+  "turns": 8,
+  "mcp_servers": [
+   "GlycanBuilder-MCP"
+  ],
+  "note": "Tool-loading calls made by the chat interface (tool_search, 3 calls) are not counted."
+ },
+ "glycan": {
+  "name_in_session": "GM3 (glycan portion only, no ceramide)",
+  "sequence": "Neu5Ac(a2-3)Gal(b1-4)Glc",
+  "note": "Identical in structure to 3'-sialyllactose"
+ },
+ "tool_calls": [
+  {
+   "turn": 1,
+   "tool": "GlycanBuilder-MCP:encode_structure",
+   "arguments": {
+    "structure": "Neu5Ac(a2-3)Gal(b1-4)Glc",
+    "sourceFormat": "iupac_condensed",
+    "targetFormat": "wurcs2"
+   },
+   "result": "not used: conversion did not succeed; the structure was built residue by residue instead"
+  },
+  {
+   "turn": 1,
+   "tool": "GlycanBuilder-MCP:add_residue",
+   "arguments": {
+    "residueType": "Glc"
+   },
+   "result": "reducing-end Glc"
+  },
+  {
+   "turn": 1,
+   "tool": "GlycanBuilder-MCP:add_residue",
+   "arguments": {
+    "residueType": "Gal",
+    "targetIndex": 1,
+    "anomericState": "b",
+    "parentPosition": 4
+   },
+   "result": "Gal(b1-4)Glc"
+  },
+  {
+   "turn": 1,
+   "tool": "GlycanBuilder-MCP:add_residue",
+   "arguments": {
+    "residueType": "NeuAc",
+    "targetIndex": 2,
+    "anomericState": "a",
+    "parentPosition": 3,
+    "outputFormat": "wurcs2"
+   },
+   "result": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2"
+  },
+  {
+   "turn": 1,
+   "tool": "GlycanBuilder-MCP:search_glycan",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2"
+   },
+   "result": "not run: not approved in the session"
+  },
+  {
+   "turn": 3,
+   "tool": "GlycanBuilder-MCP:search_glycan",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2"
+   },
+   "result": "default database (GlycoNAVI): hub URL only, no accession"
+  },
+  {
+   "turn": 3,
+   "tool": "GlycanBuilder-MCP:search_glycan",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2",
+    "database": "GlyTouCan"
+   },
+   "result": "G56516VH"
+  },
+  {
+   "turn": 3,
+   "tool": "GlycanBuilder-MCP:set_linkage",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "targetIndex": 1,
+    "anomericState": "b",
+    "format": "wurcs2",
+    "outputFormat": "wurcs2"
+   },
+   "result": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2"
+  },
+  {
+   "turn": 3,
+   "tool": "GlycanBuilder-MCP:search_glycan",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2",
+    "database": "GlyTouCan"
+   },
+   "result": "G91237TK"
+  },
+  {
+   "turn": 5,
+   "tool": "GlycanBuilder-MCP:search_pdb_structures",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2",
+    "glyTouCanId": "G91237TK",
+    "limit": 50
+   },
+   "result": "30 entries (WURCS descriptor exact match)"
+  },
+  {
+   "turn": 7,
+   "tool": "GlycanBuilder-MCP:set_linkage",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "targetIndex": 1,
+    "anomericState": "a",
+    "format": "wurcs2",
+    "outputFormat": "wurcs2"
+   },
+   "result": "WURCS=2.0/3,3,2/[a2122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2"
+  },
+  {
+   "turn": 7,
+   "tool": "GlycanBuilder-MCP:search_pdb_structures",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2",
+    "limit": 50
+   },
+   "result": "19 entries"
+  },
+  {
+   "turn": 7,
+   "tool": "GlycanBuilder-MCP:search_pdb_structures",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2",
+    "limit": 50
+   },
+   "result": "0 entries"
+  },
+  {
+   "turn": 7,
+   "tool": "GlycanBuilder-MCP:search_glycan",
+   "arguments": {
+    "structure": "WURCS=2.0/3,3,2/[a2122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+    "format": "wurcs2",
+    "database": "GlyTouCan"
+   },
+   "result": "G92323ZH"
+  }
+ ],
+ "tool_call_count": {
+  "total": 14,
+  "executed": 13,
+  "by_tool": {
+   "encode_structure": 1,
+   "add_residue": 3,
+   "search_glycan": 5,
+   "set_linkage": 2,
+   "search_pdb_structures": 3
+  }
+ },
+ "results": [
+  {
+   "reducing_end": "beta",
+   "wurcs": "WURCS=2.0/3,3,2/[a2122h-1b_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+   "glytoucan": "G91237TK",
+   "pdb_count": 30,
+   "pdb_ids": [
+    "1DBN",
+    "1HGG",
+    "1SE3",
+    "1SID",
+    "1WGC",
+    "1WW4",
+    "2OSX",
+    "2W68",
+    "2WGC",
+    "2ZG3",
+    "3AP7",
+    "3NV4",
+    "3S6X",
+    "3VKM",
+    "4EN6",
+    "4GU4",
+    "4LBL",
+    "4LBO",
+    "4MBY",
+    "4ONT",
+    "4POR",
+    "5IJ1",
+    "5J14",
+    "6TLZ",
+    "6Y5Y",
+    "7ZIL",
+    "7ZIM",
+    "7ZIP",
+    "8BJZ",
+    "8BSO"
+   ]
+  },
+  {
+   "reducing_end": "alpha",
+   "wurcs": "WURCS=2.0/3,3,2/[a2122h-1a_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+   "glytoucan": "G92323ZH",
+   "pdb_count": 19,
+   "pdb_ids": [
+    "1QFO",
+    "1S0I",
+    "1Z4X",
+    "2XBO",
+    "3HTT",
+    "3SIT",
+    "4C1W",
+    "4LO5",
+    "4WVW",
+    "4Y20",
+    "4YZ5",
+    "5B2D",
+    "5GLU",
+    "5WHT",
+    "5WHU",
+    "6HKU",
+    "6Y5Y",
+    "7EE4",
+    "9UG5"
+   ]
+  },
+  {
+   "reducing_end": "unspecified",
+   "wurcs": "WURCS=2.0/3,3,2/[a2122h-1x_1-5][a2112h-1b_1-5][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a4-b1_b3-c2",
+   "glytoucan": "G56516VH",
+   "pdb_count": 0,
+   "pdb_ids": []
+  }
+ ],
+ "union": {
+  "pdb_count": 48,
+  "in_both": [
+   "6Y5Y"
+  ],
+  "pdb_ids": [
+   "1DBN",
+   "1HGG",
+   "1QFO",
+   "1S0I",
+   "1SE3",
+   "1SID",
+   "1WGC",
+   "1WW4",
+   "1Z4X",
+   "2OSX",
+   "2W68",
+   "2WGC",
+   "2XBO",
+   "2ZG3",
+   "3AP7",
+   "3HTT",
+   "3NV4",
+   "3S6X",
+   "3SIT",
+   "3VKM",
+   "4C1W",
+   "4EN6",
+   "4GU4",
+   "4LBL",
+   "4LBO",
+   "4LO5",
+   "4MBY",
+   "4ONT",
+   "4POR",
+   "4WVW",
+   "4Y20",
+   "4YZ5",
+   "5B2D",
+   "5GLU",
+   "5IJ1",
+   "5J14",
+   "5WHT",
+   "5WHU",
+   "6HKU",
+   "6TLZ",
+   "6Y5Y",
+   "7EE4",
+   "7ZIL",
+   "7ZIM",
+   "7ZIP",
+   "8BJZ",
+   "8BSO",
+   "9UG5"
+  ]
+ },
+ "consistency": "The alpha and beta PDB ID lists are identical to those obtained on 2026-08-12 (record, section 3.2). The unspecified form returned 0 because the anomeric normalization fallback had not yet been added (record, section 3.5)."
+}
